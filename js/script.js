@@ -145,7 +145,7 @@ $(document).ready(function () {
     })
         .setTween(yearTween)
         .setPin("#work-section")
-        .addIndicators({ name: "work" })
+        // .addIndicators({ name: "work" })
         .addTo(workController);
 
     //TODO: Fix this not working
